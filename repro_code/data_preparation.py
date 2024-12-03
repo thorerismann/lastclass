@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from pathlib import Path
-# from pysal.lib import weights
+from pysal.lib import weights
 
 class LoadReproData:
     @staticmethod

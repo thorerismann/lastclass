@@ -1,14 +1,9 @@
-import pandas as pd
-from pathlib import Path
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
-from openpyxl import load_workbook
 from repro_code.extra_charts import ExtraCharts
 from repro_code.data_preparation import LoadReproData, SecondBlock
 from repro_code.sumamry_stats_econ import print_summary_stats
 
-
+def prepare_unemployment_regression():
+    pass
 
 def main():
     # ExtraCharts.plot_coal_jobs(Path.cwd() / 'data' / 'coal_jobs.csv')
